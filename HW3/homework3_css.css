@@ -1,0 +1,319 @@
+ul {
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    z-index:9999;
+    position: fixed;
+   } 
+   li.navbar-header{
+       color:#A8FF24;
+       float:left;
+       font-size:x-large;
+   }
+   li {
+       float:right;
+   }  
+   li a, .dropbtn{
+       display : inline-block;
+       color :white;
+       text-align:center;
+       padding: 14px 16px;
+       text-decoration: none;
+   }
+   li a:hover, .dropdown:hover .dropbtn{
+       background-color:#A8FF24;
+   }
+   li.dropdown{
+       display:inline-block
+   }
+   .dropdown-content {
+       display:none;
+       position :fixed;
+       background-color: white;
+       min-width: 160px;
+       box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index:1;
+   }
+   .dropdown-content a {
+       color: black;
+       padding: 12px 16px;
+       text-decoration: none;
+       display:block;
+       text-align: left;
+   }
+   .dropdown-content a:hover {background-color: gray;}
+   .dropdown:hover .dropdown-content{
+       display:block;
+   }
+img {
+    background-color: white;
+    position:fixed;
+    right:0;
+    bottom:0;
+    margin:0;
+    padding:0;
+    z-index:999;
+}  
+.post img {
+    transition: all 0.5s ease 0s;
+    z-index:999;
+}
+.post img:hover {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: .75;
+    z-index:999;
+}
+.left{
+    position:fixed;
+    width:55%;
+    float:left;
+    height:700 px;
+    line-height:700px;
+    color:white;
+}
+.right{
+    width:45%;
+    height:2000px;
+    font-weight:bold;
+    float:right;
+    background-color:transparent;
+}
+#topic{
+    font-size: x-large;
+    z-index: -6;
+    opacity: .0
+}
+#picture{
+    position:absolute;
+    left:0px;
+    height:91%;
+    z-index: -5;
+    background-color: white;
+}
+.shape-1{
+    position: fixed;
+    margin-left: 80px;
+    margin-top: -120px;
+}
+.shape-1{
+    width: 150px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #A8FF24;
+    background-color: transparen;
+    border: 1px solid #A8FF24;
+    transition: all .3s linear;
+}
+.shape-1:hover{
+    background-color: #000;
+    color:#A8FF24;
+    -moz-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    opacity: .9
+}
+.shape-2{
+    position: fixed;
+    margin-left: 330px;
+    margin-top: -120px
+}
+.shape-2{
+    width: 150px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #A8FF24;
+    background-color: transparen;
+    border: 1px solid #A8FF24;
+    transition: all .3s linear;
+}
+.shape-2:hover{
+    background-color: #000;
+    color:#A8FF24;
+    -moz-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    opacity: .9
+}
+.shape-3{
+    position: fixed;
+    margin-left: 580px;
+    margin-top: -120px
+}
+.shape-3{
+    width: 150px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #A8FF24;
+    background-color: transparen;
+    border: 1px solid #A8FF24;
+    transition: all .3s linear;
+}
+.shape-3:hover{
+    background-color: #000;
+    color:#A8FF24;
+    -moz-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    opacity: .9
+}
+#topic2{
+    color:black;
+    position: absolute;
+    top:73px;
+    left:56%;
+    z-index:10;
+}
+#topic3{
+    color:black;
+    position: absolute;
+    top:523px;
+    left:56%;
+    z-index:10;
+}
+#topic4{
+    color:black;
+    position: absolute;
+    top:973px;
+    left:56%;
+    z-index:10;
+}
+#photo{
+    position:absolute;
+    top:500px;
+    left:700px;
+    z-index: -7;
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+#ph0{
+    position:absolute;
+    width: 800px;
+    height: 600px;
+    top:-300px;
+    left:51%;
+    z-index: -7;
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+#ph1{
+    position:absolute;
+    width: 800px;
+    height: 600px;
+    top:-300px;
+    left:15%;
+    z-index: -7;
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+#ph2{
+    position:absolute;
+    width: 800px;
+    height: 600px;
+    top:-300px;
+    left:87%;
+    z-index: -7;
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+#ph3{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    top:125px;
+    left:51%;
+    z-index: -7;
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+#ph4{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    top:125px;
+    left:15%;
+    z-index: -7;
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+#ph5{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    top:125px;
+    left:87%;
+    z-index: -7;
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+#container {
+    width: 500px;
+    height: 400px;
+    overflow:hidden;
+    }
+#photo {
+    width:1200px;
+    animation: switch 10s ease-out infinite;
+    }
+#photo > img {
+    float: left;
+    width: 400px;
+    height: 300px;
+    }
+@keyframes switch {
+    0%, 25% {
+    margin-left: 0;
+}
+    35%, 60% {
+    margin-left: -400px;
+}
+    70%, 100% {
+    margin-left: -800px;
+}
+}
+
+#ph0:hover{
+    width:450px;
+}
